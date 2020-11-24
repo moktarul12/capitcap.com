@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Mina-Bold';
+    src: url('Mina-Bold.tff') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Mina-Regular';
+    src: url('Mina-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+
+}
