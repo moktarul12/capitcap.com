@@ -1269,7 +1269,7 @@ strong,
 }
 /* Logo */
 .pane-when .logo{
-	width: 460px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	margin-top: -120px;
@@ -1285,7 +1285,7 @@ strong,
 }
 /* Clock */
 .pane-when .clock{
-	width: 460px;
+	width: 85%;
 /*	height: 430px;*/
 	margin: 0 auto;
 	margin-top: 50%;
