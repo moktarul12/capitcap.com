@@ -1281,7 +1281,7 @@ strong,
 	width: auto;
 }
 .pane-when .logo img.logo-img {
-    width: auto;
+    width: 100%;
     height: auto;
 }
 /* Clock */
@@ -1289,21 +1289,24 @@ strong,
 	width: 460px;
 /*	height: 430px;*/
 	margin: 0 auto;
-	margin-top: 50%;
+	
 	position: relative;
 }
 
 .pane-when .content{
 		position: absolute;
 		top: 0;
-		left: 0;
 		right: 0;
+		height: 100%;
+		display: table;
 	}
 	.pane-when::after {
 /*		display: none;*/
 	}
 	.pane-when .clock{
-		margin-top: 100px;
+		height:100%;
+		display: table-cell;
+		vertical-align: middle;
 	}
 
 /* Mask to disable click */
