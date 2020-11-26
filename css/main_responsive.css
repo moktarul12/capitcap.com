@@ -77,6 +77,10 @@ http://themeforest.net/licenses
 }
 /* Screen Small than 768px */
 @media (max-width : 768px){
+	.page-home.page-cent .content header {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 	.maincomingsool{
 		width: 130px !important;
 	height: auto !important;

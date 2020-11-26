@@ -1173,8 +1173,10 @@ strong,
 .page-home .content ,
 .page-home.page-cent .content {
 	position: relative;
-	max-width: 1200px;
-	width: 100%;
+}
+.page-home.page-cent .content header{
+	padding-left: 56px;
+	padding-right: 50px;
 }
 .page-home .logo-container{
 	position: absolute;
