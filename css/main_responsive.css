@@ -77,9 +77,23 @@ http://themeforest.net/licenses
 }
 /* Screen Small than 768px */
 @media (max-width : 768px){
+	.maincomingsool{
+		width: 130px !important;
+	height: auto !important;
+	margin-top: 20px;
+	}
+	.comingsoon{
+		margin-top: 10px;
+
+		font-size: 25px !important;
+		white-space: nowrap;
+	}
+	.page-footer a{
+		width: 35px;
+	}
 	.pane-when .clock{
 		width: 210px;
-		margin-top: 20px;
+		margin-top: -20px;
 	}
 	.pane-when .clock .elem-center .digit{
     	font-size: 96px;
@@ -204,12 +218,10 @@ http://themeforest.net/licenses
 	}
 	.pane-when .clock{
 		width: 180px;
-		margin-top: 64px;
 		float: right;
 	}
 	.pane-when .logo img {
         height: 80px;
-		margin-top: 48px;
         width: auto;
     	text-align: center,;
     }
@@ -261,7 +273,7 @@ http://themeforest.net/licenses
 		width: 100%;
 	}
 	.page-cent .content, .page-about .content {
-		padding-left: 64px;
+		padding-left: 115px;
 		padding-right: 20px;
 		padding-bottom: 96px;
 		padding-top: 192px;
