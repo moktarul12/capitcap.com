@@ -1175,8 +1175,8 @@ strong,
 	position: relative;
 }
 .page-home.page-cent .content header{
-	padding-left: 56px;
-	padding-right: 50px;
+	padding-left: 156px;
+	padding-right: 150px;
 }
 .page-home .logo-container{
 	position: absolute;
@@ -1766,4 +1766,8 @@ input:-webkit-autofill:active  {
 .quick-link ul li.active::after {
     background: none !important;
     filter: brightness(0) invert(1) !important;
+}
+
+.magara{
+	font-family: 'Magra-Regular' !important;
 }
